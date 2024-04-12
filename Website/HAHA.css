@@ -1,0 +1,182 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.container1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    
+}
+
+.Background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    position: fixed;
+    
+}
+
+.Background1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.Background11 {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+    
+.Title {
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.Welcome {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(0, 247, 255, 0.63);
+
+}
+
+.webname {
+    font-size: 20px;
+    color: aqua;
+
+}
+
+.creation {
+    font-size: 15px;
+    color: aqua;
+
+}
+
+.butterfly {
+    height: 50px;
+    width: 50px;
+    
+    
+    
+    
+}
+.bb {
+    
+    height: 90px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.oas {
+    display: flex;
+}
+
+
+
+.button {
+    height: 19px;
+    width: 77px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    
+    
+    
+
+    
+}
+ 
+.button11 {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 130px;
+    height: 29px;
+    width: 60px;
+    border-radius: 6px;
+
+    
+    
+
+}
+
+.bef  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button111 {
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 130px;
+    height: 29px;
+    width: 60px;
+    border-radius: 6px;
+
+    
+    
+
+}
+
+.butto {
+    position: absolute;
+    margin-top: 418px;
+    margin-left: 125px;
+    height: 29px;
+    width: 70px;
+    border-radius: 6px;
+
+    
+    
+
+}
+
+
+
+
+
+
+@media(min-aspect-ratio:18/10) {
+    .Background{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-aspect-ratio:18/10) {
+    .Background{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media(min-aspect-ratio:18/10) {
+    .Background11{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-aspect-ratio:18/10) {
+    .Background11{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
